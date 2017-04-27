@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 web: bundle exec rails server -p $PORT
-=======
 web: bundle exec rails server -p $PORT
 web: bundle exec ruby web.rb -p $PORT
 worker: bundle exec rake jobs:work
 web: bundle exec unicorn -p $PORT
->>>>>>> 6eae03d80ae58d9547a43c6b4e165b58051df609
