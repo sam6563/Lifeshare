@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
+gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -24,7 +25,7 @@ gem 'jbuilder'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'geocoder'
-gem "therubyracer"
+#gem "therubyracer"
 gem "less-rails"
 gem 'twitter-bootstrap-rails'
 gem 'bootstrap-datepicker-rails'
